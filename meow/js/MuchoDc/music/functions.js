@@ -257,11 +257,11 @@ function searchBox() {
     '        <input type="text" name="wd" id="search-wd" placeholder="搜索歌手、歌名、专辑" autofocus >' + 
     '    </div>' + 
     '    <div class="radio-group" id="music-source">' + 
-    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="netease" checked=""><span class="leo-radioInput"></span><img class="leo-img"  src="'+siteinfo.url+'asset/img/MuchoDc/music/s-netease.png"> </label>' + 
-    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="tencent"><span class="leo-radioInput"></span><img class="leo-img"  src="'+siteinfo.url+'asset/img/MuchoDc/music/s-qq.png"></label>' + 
-    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="xiami"><span class="leo-radioInput"></span><img class="leo-img"  src="'+siteinfo.url+'asset/img/MuchoDc/music/s-xiami.png"></label>' + 
-    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="kugou"><span class="leo-radioInput"></span><img class="leo-img"  src="'+siteinfo.url+'asset/img/MuchoDc/music/s-kugou.png"></label>' + 
-    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="baidu"><span class="leo-radioInput"></span><img class="leo-img"  src="'+siteinfo.url+'asset/img/MuchoDc/music/s-baidu.png"></label>' + 
+    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="netease" checked=""><span class="leo-radioInput"></span><img class="leo-img"  src="https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/s-netease.png"> </label>' + 
+    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="tencent"><span class="leo-radioInput"></span><img class="leo-img"  src="https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/s-qq.png"></label>' + 
+    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="xiami"><span class="leo-radioInput"></span><img class="leo-img"  src="https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/s-xiami.png"></label>' + 
+    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="kugou"><span class="leo-radioInput"></span><img class="leo-img"  src="https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/s-kugou.png"></label>' + 
+    '       <label class="leo-label"><input class="leo-radio" type="radio" name="source" value="baidu"><span class="leo-radioInput"></span><img class="leo-img"  src="https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/s-baidu.png"></label>' + 
     '   </div>' + 
     '</div></form>';
 
@@ -386,7 +386,7 @@ function changeCover(music) {
     }
     
     if(img == "err") {
-        img = siteinfo.url+"asset/img/MuchoDc/music/f-leeleo.jpg";
+        img = "https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/f-leeleo.jpg";
     } else {
         if(mkPlayer.mcoverbg === true && rem.isMobile)      // 移动端封面
         {    
@@ -611,7 +611,7 @@ function refreshList() {
 // 添加一个歌单
 // 参数：编号、歌单名字、歌单封面
 function addSheet(no, name, cover) {
-    if(!cover) cover = siteinfo.url+"asset/img/MuchoDc/music/f-leeleo.jpg";
+    if(!cover) cover = "https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/f-leeleo.jpg";
     if(!name) name = "读取中...";
     
     var html = '<div class="sheet-item" data-no="' + no + '">' +
@@ -784,7 +784,7 @@ function clearDislist() {
     musicList[rem.dislist].item.length = 0;  // 清空内容
     if(rem.dislist == 1) {  // 正在播放列表
         playerSavedata('playing', '');  // 清空本地记录
-        $(".sheet-item[data-no='1'] .sheet-cover").attr('src', siteinfo.url+'asset/img/MuchoDc/music/f-leeleo.jpg');    // 恢复正在播放的封面
+        $(".sheet-item[data-no='1'] .sheet-cover").attr('src', 'https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/f-leeleo.jpg');    // 恢复正在播放的封面
     } else if(rem.dislist == 2) {   // 播放记录
         playerSavedata('his', '');  // 清空本地记录
     }
