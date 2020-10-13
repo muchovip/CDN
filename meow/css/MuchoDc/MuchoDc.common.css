@@ -285,22 +285,22 @@ ol, ul {
 }
 
 .leo-icon-n, .leo-icon-ct {
-	background: url(../../img/MuchoDc/n.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/n.png);
 	background-size: 100% 100%;
 }
 
 .leo-icon-m {
-	background: url(../../img/MuchoDc/m.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/m.png);
 	background-size: 100% 100%;
 }
 
 .leo-icon-tv, .leo-icon-ms {
-	background: url(../../img/MuchoDc/tv.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/tv.png);
 	background-size: 100% 100%;
 }
 
 .leo-icon-va, .leo-icon-p {
-	background: url(../../img/MuchoDc/va.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/va.png);
 	background-size: 100% 100%;
 }
 
@@ -633,22 +633,22 @@ ol, ul {
 }
 /*头部背景*/
 .leo-head-bg-n, .leo-head-bg-ct {
-	background: url(../../img/MuchoDc/leo-bg-n.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/leo-bg-n.png);
 	background-size: 100% 100%;
 }
 
 .leo-head-bg-m {
-	background: url(../../img/MuchoDc/leo-bg-m.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/leo-bg-m.png);
 	background-size: 100% 100%;
 }
 
 .leo-head-bg-tv, .leo-head-bg-ms {
-	background: url(../../img/MuchoDc/leo-bg-tv.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/leo-bg-tv.png);
 	background-size: 100% 100%;
 }
 
 .leo-head-bg-va, .leo-head-bg-p {
-	background: url(../../img/MuchoDc/leo-bg-va.png);
+	background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/leo-bg-va.png);
 	background-size: 100% 100%;
 }
 
@@ -1670,12 +1670,12 @@ ol, ul {
 }
 /* 正在播放的那项数字 */
  .list-playing .list-num {
-    background: url(/.../../asset/img/MuchoDc/music/wavem.gif) 10px 20px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/wavem.gif) 10px 20px no-repeat;
     text-indent: -99px;
 }
 /* 正在播放的列表  */
  .sheet-playing:before {
-    content: url(/../../asset/img/MuchoDc/music/wave.gif);
+    content: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/wave.gif);
     z-index: 99999;
     position: absolute;
     top: 90px;
@@ -1707,7 +1707,7 @@ ol, ul {
 }
 /* 移动端的菜单图标 */
  .list-mobile-menu {
-    background:url(../../img/MuchoDc/music/more.png);
+    background:url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/more.png);
     background-size: 100% 100%;
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -1853,7 +1853,7 @@ ol, ul {
 /* 歌曲信息按钮 */
  #music-info {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    background: url(../../img/MuchoDc/music/more.png);
+    background: url(https://cdn.jsdelivr.net/gh/muchovip/cdn/meow/img/MuchoDc/music/more.png);
     background-color: #fff;
     position: absolute;
     width: 27px;
